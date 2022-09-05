@@ -1,0 +1,11 @@
+language: python
+python:
+- 3.8
+
+script: python test_one.py
+
+notifications:
+  email:
+    recipients:
+      - stanjaromin@gmail.com
+    on_success: always
