@@ -4,4 +4,5 @@ jobs:
   name-of-the-job-test1:
     runs-on: ubuntu-latest
     steps:
+      - run: pip install -r requirements.txt
       - run: python test_one.py
