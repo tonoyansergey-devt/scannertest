@@ -1,0 +1,7 @@
+name: scannertest
+on: [push]
+jobs:
+  name-of-the-job-test1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: python test_one.py
