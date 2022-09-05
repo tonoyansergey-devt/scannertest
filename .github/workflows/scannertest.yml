@@ -17,4 +17,4 @@ jobs:
       - name: Execution of the python script
         # run: python -c "import sys; print(sys.version)"
         # - run: pip install -r requirements.txt
-      - run: python test_one.py
+        run: python test_one.py
