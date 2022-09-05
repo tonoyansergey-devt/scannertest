@@ -1,3 +1,4 @@
-Print("My token: ghp_826a608cb219baf2fbb650c426431739fm4I")
-Print("My AWS_CLIENT_SECRET=[dupadupadupa]")
-Print("My AWS: AKIA3232534534233233")
+print("My token: ghp_826a608cb219baf2fbb650c426431739fm4I")
+print("My AWS_CLIENT_SECRET=[dupadupadupa]")
+print("My AWS_CLIENT_SECRET=[AKIA3232534534233233]")
+print("My AWS_CLIENT_SECRET=AKIA3232534534233233")
