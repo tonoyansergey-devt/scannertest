@@ -1,4 +1,4 @@
-print("My token: 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")
+print("GitHub Personal Access Token: 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")
 print("My AWS Access Key=[abcdefghijklamneops]")
 print("AWS Access Key ID=[AKIA3232534534233233]")
 print("My AWS_CLIENT_SECRET=wJalrXUtnFEMI/K7MDENG/bPxRfiCY/shshshsh")
