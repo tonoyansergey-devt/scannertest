@@ -1,1 +1,1 @@
-print("My AWS_CLIENT_SECRET=wJalrXUtnFEMI/K7MDENG/bPxRfiCY/shshshsh")
+print("My token: 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")
