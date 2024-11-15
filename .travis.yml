@@ -4,4 +4,4 @@ python:
 script: python test_one.py
 jobs:
   allow_failures:
-    - if: draft = true
+    - if: draft = false
