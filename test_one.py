@@ -1,4 +1,4 @@
-print()
+print(
 print("My AWS_CLIENT_SECRET=AKIA3232534534233233")
 
 print("My token: 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")
