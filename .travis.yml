@@ -1,4 +1,13 @@
 language: python
 python:
 - 3.6
-script: python test_one.py
+jobs:
+  include:
+    - stage: "first stage"
+      script: python test_one.py
+    - stage: "the stage runs if draft is true"
+      script: python test_one.py
+      if: draft = true
+    - stage: "the stage doesn't run if draft is true"
+      script: python test_one.py
+      if: draft = false
