@@ -3,9 +3,8 @@ python:
 - 3.6
 jobs:
   include:
-    - stage: "the build runs if draft is true"
+    - stage: "first stage"
+      script: python test_one.py
+    - stage: "the stage runs if draft is true"
       script: python test_one.py
       if: draft = true
-    - stage: "the build runs if draft is false"
-      script: python test_one.py
-      if: draft = false
