@@ -5,5 +5,7 @@ jobs:
   include:
     - stage: "the build runs if draft is true"
       script: python test_one.py
+      if: draft = true
     - stage: "the build runs if draft is false"
       script: python test_one.py
+      if: draft = false
