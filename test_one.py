@@ -1,4 +1,4 @@
 import os
 
-print('the variakooasassajjkkbdftgvle value')
+print('the variakooasdsdsassajjkkbdftgvle value')
 print(os.environ.get('MY_VAR'))
