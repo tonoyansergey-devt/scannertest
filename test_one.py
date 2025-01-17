@@ -1,4 +1,4 @@
 import os
 
-print('the value value')
+print('the overriden value')
 print(os.environ.get('MY_VAR'))
